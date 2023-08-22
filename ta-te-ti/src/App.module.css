@@ -1,0 +1,13 @@
+.app{
+
+    width: 100vw; /* Ancho de la ventana gráfica */
+    height: 135vh; /* Alto de la ventana gráfica */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+.app::-webkit-scrollbar{
+    width: 0;
+   background: #000;
+}

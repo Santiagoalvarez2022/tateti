@@ -1,0 +1,15 @@
+/* variables.module.css */
+:root {
+    --color-primary: #0f1b36; 
+    --color-secondary: #e2e2e2 ;
+    --color-components-bg: var(--color-primary);
+    --color-games-bg: #80d0ff
+}
+.variables{
+    .color1 {color: #80d0ff;}
+    .color2 {color: #cef7ff;}
+    .color3 {color: #0f1b36;}
+    .color4 {color: #76777c;}
+    .color5 {color: #e2e2e2;}
+}
+  

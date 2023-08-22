@@ -1,0 +1,13 @@
+@import "../../styles/vars.module.css";
+ 
+.page{
+    height: 100vh;
+    width: 100vw;
+    background: var(--color-games-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+
+}
+

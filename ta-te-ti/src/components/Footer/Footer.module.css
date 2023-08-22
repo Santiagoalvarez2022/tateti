@@ -1,0 +1,47 @@
+
+/* styles.module.css */
+@import "../../styles/vars.module.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.footer {
+  background-color: var(--color-primary);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-inline-end: 50px;
+}
+
+.footerContent{
+    color:var(--color-secondary);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+} 
+
+a{
+  color:var(--color-secondary);
+}
+
+@media (max-width: 767px) {
+  /* Estilos para pantallas de celulares y dispositivos pequeños */
+  .footer{
+  padding-inline-end: 0px;
+  padding-inline: 15px;
+
+  }
+  .footerContent{
+    font-size: 15px;
+  }
+}
+
+/* Media Query para Computadoras Pequeñas */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para computadoras pequeñas */
+}
+
+/* Media Query para Pantallas Más Grandes */
+@media (min-width: 1200px) {
+  /* Estilos para pantallas más grandes de lo normal */
+
+}

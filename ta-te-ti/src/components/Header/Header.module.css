@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import "../../styles/vars.module.css";
+
+.header,.headerWithLink{
+    height: 15vh;
+    background-color: var(--color-primary);
+    color:var(--color-secondary);
+    font-family: 'Montserrat', sans-serif;
+    filter: drop-shadow(2px 2px black);
+    display:flex;
+    align-items: center;
+}
+
+.title,.titleTwo{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Cuando este en el inicio*/
+.title{
+    width: 100%;
+}
+
+/*Cuando este en un juego*/
+.btnBack,.space{
+    width: 30%;
+    font-size: 15px;
+
+}
+
+.btnBack > a{
+    padding-inline-start: 15px;
+    text-decoration: none; 
+    font-weight: bolder; 
+}
+
+.btnBack > a:hover{
+    color:rgb(255, 157, 0);
+}
+.titleTwo{
+    width: 70%;
+}
+
+
+
+
