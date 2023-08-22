@@ -7,7 +7,7 @@ function Footer() {
       <div className={styles.footerContent}>
         <p>Desarrollado por Santiago Alvarez</p>
         <p>&copy; {new Date().getFullYear()} Todos los derechos reservados</p>
-        <p>Visita el <a href="https://github.com/tu-usuario/tu-repositorio">repositorio en GitHub</a></p>
+        <p>Visita el <a href="https://github.com/Santiagoalvarez2022/tateti">repositorio en GitHub</a></p>
       </div>
     </footer>
     
