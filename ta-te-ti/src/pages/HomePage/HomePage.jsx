@@ -40,8 +40,8 @@ export default function HomePage() {
           }
         </div>
         <div className={style.switchButton}>
-          <h3 className={style.msg}>Cambia de juego de deseas </h3>
-          <button className={style.btn} onClick={()=>handlerGame()}> {otherGame} </button>
+          <h3 className={style.msg}> Proximamente vendran nuevos juegos </h3>
+          {/* <button  className={style.btn} onClick={()=>handlerGame()}> {otherGame} </button> */}
         </div>
       </div>
     </div>
